@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:2:1-103:12
+	xmlns:android
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml
+		INJECTED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml
+		INJECTED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml
+		INJECTED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml
+		INJECTED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.INTERNET
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.GET_TASKS
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:16:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:19:22-77
+application
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:21:5-101:19
+	android:label
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:24:9-41
+	android:icon
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:23:9-38
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:22:9-43
+activity#com.daidai.im.activity.Appstart
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:25:9-35:20
+	android:label
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:27:13-56
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:28:13-47
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:26:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:32:27-74
+activity#com.daidai.im.activity.WhatsnewDoor
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:36:9-38:50
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:38:13-47
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:37:13-50
+activity#com.daidai.im.activity.MainWeixin
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:39:9-41:50
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:41:13-47
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:40:13-48
+activity#com.daidai.im.activity.Login
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:42:9-44:63
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:44:13-60
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:43:13-43
+activity#com.daidai.im.activity.Register
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:45:9-47:63
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:47:13-60
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:46:13-46
+activity#com.daidai.im.activity.Welcome
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:48:9-50:50
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:50:13-47
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:49:13-45
+activity#com.daidai.im.activity.Whatsnew
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:51:9-53:50
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:53:13-47
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:52:13-46
+activity#com.daidai.im.activity.ChatActivity
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:54:9-59:20
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:56:13-60
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:55:13-50
+activity#com.daidai.im.activity.ShakeActivity
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:60:9-62:63
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:62:13-60
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:61:13-51
+activity#com.daidai.im.activity.InfoXiaohei
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:63:9-65:63
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:65:13-60
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:64:13-49
+activity#activity.Exit
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:66:9-68:52
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:67:13-41
+activity#activity.ExitFromSettings
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:69:9-71:58
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:71:13-55
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:70:13-53
+activity#activity.InfoXiaoheiHead
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:72:9-74:48
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:74:13-45
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:73:13-52
+activity#activity.LoadingActivity
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:75:9-77:52
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:77:13-49
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:76:13-52
+activity#activity.MainTopRightDialog
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:78:9-80:55
+	android:theme
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:80:13-52
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:79:13-55
+service#com.daidai.im.dataprocess.DataProcessService
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:82:9-86:19
+	android:exported
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:85:13-36
+	android:enabled
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:84:13-35
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:83:13-59
+activity#com.daidai.im.activity.FriendAddActivity
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:88:9-91:20
+	android:label
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:90:13-58
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:89:13-55
+activity#com.daidai.im.activity.AddFriendActivity
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:92:9-95:20
+	android:label
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:94:13-62
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:93:13-55
+activity#com.daidai.im.activity.AllPicActivity
+ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:97:9-100:20
+	android:label
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:99:13-62
+	android:name
+		ADDED from G:\android\androidstudio\projects\IMApplication\app\src\main\AndroidManifest.xml:98:13-52

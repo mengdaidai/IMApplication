@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="200dp"
+    android:layout_height="200dp">
+
+    <RelativeLayout
+        android:id="@+id/dialog_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/record_phone"/>
+        <com.daidai.im.view.VolumnViewer
+            android:id="@+id/volumnViewer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_phone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dialog_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/record_arrow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="向上滑动取消"
+            android:layout_below="@id/iv_exit"/>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/G:/android/androidstudio/projects/IMApplication/app/src/main/res/layout/record_dialog.xml -->

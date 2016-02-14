@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\android\androidstudio\projects\IMApplication\app\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="G:\android\androidstudio\projects\IMApplication\app\build\intermediates\pre-dexed\debug\gson-2.2.2-925a5faed8040f4f213650623a0bd3d4d0416580.jar" />
+    </item>
+    <item
+        jar="G:\android\androidstudio\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd">
+        <dex dex="G:\android\androidstudio\projects\IMApplication\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-2e0577caf404bb1424ea5cd74e5ec6b5f4252718.jar" />
+    </item>
+
+</items>
